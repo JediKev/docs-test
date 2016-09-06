@@ -59,6 +59,7 @@ Testing
 **Config Box:**
 
   **Size:** Width, asdfjalksdjfasdjfasdfa fkjaslfj asfasdkfjalk sf
+
   **Max Length:** The maximum asdnfoasdfa fal sfajsfl jasdf
 
     **Validator:** Select from ashtaksj asfsfjasjfasfa
