@@ -51,3 +51,17 @@ License
 -------
 
 The project is licensed under the BSD license.
+
+
+Testing
+-------
+
+**Config Box:**
+
+  **Size:** Width, asdfjalksdjfasdjfasdfa fkjaslfj asfasdkfjalk sf
+  **Max Length:** The maximum asdnfoasdfa fal sfajsfl jasdf
+
+    **Validator:** Select from ashtaksj asfsfjasjfasfa
+
+      IP addresses
+      Phone
