@@ -11,6 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   Admin Guide
+   Agent Guide
+   User Guide
+
 
 
 Indices and tables

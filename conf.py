@@ -20,6 +20,9 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+# Imports Sphinx RTD Theme
+import sphinx_rtd_theme
+
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -121,7 +124,20 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
+
+# Overwrites default theme options
+html_style = 'css/main.css'
+
+# Adds html_context options to edit pages on GitHub
+html_context = {
+  "display_github": True,
+  "github_user": "JediKev",
+  "github_repo": "docs",
+  "github_version": "master",
+  "conf_py_path": "/",
+  "source_suffix": source_suffix,
+}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -131,6 +147,7 @@ html_theme = 'alabaster'
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
@@ -201,7 +218,7 @@ html_static_path = ['_static']
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #
-# html_show_sphinx = True
+html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #
